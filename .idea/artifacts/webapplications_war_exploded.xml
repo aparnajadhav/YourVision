@@ -25,6 +25,9 @@
           <element id="library" level="project" name="Maven: org.glassfish.web:el-impl:2.2" />
           <element id="library" level="project" name="Maven: javax.el:el-api:2.2" />
           <element id="library" level="project" name="Maven: com.sun.el:el-ri:1.0" />
+          <element id="library" level="project" name="Maven: org.webjars:bootstrap:3.2.0" />
+          <element id="library" level="project" name="Maven: org.webjars:jquery:1.11.1" />
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:4.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">
