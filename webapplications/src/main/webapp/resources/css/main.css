@@ -1,0 +1,81 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    color: #222;
+    background: #f8f8f8;
+    font-size: 16px;
+    font-family: Times New Roman, Arial, Verdana, Helvetica, sans-serif;
+    border-style: none;
+    min-height: 100%;
+}
+
+#wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    border-width: 0px;
+    background: white;
+    -webkit-box-shadow: 1px 1px 10px 5px rgba(192, 192, 192, 0.53);
+    -moz-box-shadow: 1px 1px 10px 5px rgba(192, 192, 192, 0.53);
+    box-shadow: 1px 1px 10px 5px rgba(192, 192, 192, 0.53);
+}
+
+.header {
+    color: #fff;
+    background-color: #2e68a8;
+    z-index: 1000;
+    border-width: 0 0 1px;
+    border-radius: 4px;
+    width: 100%;
+    padding: 1em;
+    border-top: medium solid;
+    position: relative;
+    float: left;
+}
+
+.header-img {
+    width: 7%;
+    float: left
+}
+
+.button_small {
+    padding-left: 0.5em;
+    width: 2.5em;
+    height: 1.5em;
+    border: solid 1px #555;
+    border-radius: 6px;
+    background-color: rgb(55, 26, 132);
+    box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+    -moz-box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+    -webkit-box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+    -o-box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font: inherit;
+    float: inherit;
+}
+
+.button_big {
+    padding-left: 0.5em;
+    width: 13.5em;
+    height: 4em;
+    border: solid 1px #555;
+    border-radius: 6px;
+    background-color: rgba(47, 132, 56, 0.04);
+    box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+    -moz-box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+    -webkit-box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+    -o-box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font: inherit;
+}
