@@ -27,19 +27,18 @@ html, body {
 
 .header {
     color: #fff;
-    background-color: #2e68a8;
+    background-color: rgba(6, 15, 24, 0.89);
     z-index: 1000;
     border-width: 0 0 1px;
     border-radius: 4px;
     width: 100%;
-    padding: 1em;
     border-top: medium solid;
     position: relative;
     float: left;
 }
 
 .header-img {
-    width: 7%;
+    width: 20%;
     float: left
 }
 
@@ -78,4 +77,35 @@ html, body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     font: inherit;
+}
+
+.top_bar {
+    color: #fff;
+    background-color: #2e68a8;
+    z-index: 1000;
+    border-width: 0 0 1px;
+    border-radius: 4px;
+    width: 100%;
+    border-top: medium solid;
+    position: relative;
+    float: left;
+    min-height: 50%;
+}
+
+.top_bar .top_right {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: inherit;
+    float: right;
+}
+
+.footer_bar {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: inherit;
+    width: 100%;
+}
+
+.footer_bar .bottom_right {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    float: right;
+    margin-left: 20em;
 }
